@@ -1,15 +1,20 @@
 import localFont from 'next/font/local'
 import "./globals.css";
-import Header from "@/components/Header";
+import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
-
-export default function RootLayout({ children }) {
+export default function RootLayout({children}) {
   return (
-    <html>
+      <html>
+
       <body>
-      <Header />
-      {children}
+
+      <div className={"bodyContainer"}>
+        <Header/>
+        {children}
+      </div>
+      <Footer/>
       </body>
-    </html>
+      </html>
   );
 }
