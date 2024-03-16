@@ -12,8 +12,9 @@ export default function RootLayout({children}) {
       <div className={"bodyContainer"}>
         <Header/>
         {children}
+        <Footer/>
       </div>
-      <Footer/>
+
       </body>
       </html>
   );

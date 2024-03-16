@@ -1,9 +1,12 @@
-import Image from "next/image";
+import styles from './Main.module.css'
+import Left from "@/components/Left/Left";
+import Right from "@/components/Right/Right";
 
-export default function Home() {
+export default function Main() {
   return (
-    <main >
-      ㅁㅈㄷㄹ
-    </main>
+      <div className={styles.mainContainer}>
+        <Left/>
+        <Right/>
+      </div>
   );
 }

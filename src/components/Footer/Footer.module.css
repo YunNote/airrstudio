@@ -1,21 +1,45 @@
 .container {
   position: relative;
-  margin: 0px 50px;
-  border-bottom: 1px solid #1E1E1D;
-}
-
-.footerHead {
-  display: grid;
-  grid-template-columns: .7fr .3fr;
-  height: 60px;
-  border-top: 1px solid #1E1E1D;
-  border-bottom: 1px solid #1E1E1D;
+  background: black;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
-
+  padding-right: 48px;
 }
 
-.contact {
-  padding-top: 20px;
-  padding-bottom: 60px;
-  font-family: sans-serif;
+.arrowContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 26px;
+  margin: 0 30px;
 }
+
+.arrow {
+  position: relative;
+  width: 30vw;
+  height: 1px;
+  background: #FFFFFF;
+}
+.arrow::after {
+  position: absolute;
+  right: 1.2px;
+  top: -6.9px;
+  content: '';
+  width: 15px; /* 사이즈 */
+  height: 15px; /* 사이즈 */
+  border-color: #FFFFFF;
+  border-top: 1px solid #FFFFFF; /* 선 두께 */
+  border-right: 1px solid #FFFFFF; /* 선 두께 */
+  transform: rotate(45deg); /* 각도 */
+}
+
+.mail {
+  border: 1px solid #FFFFFF;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 12px;
+  border-radius: 10000px;
+}
+

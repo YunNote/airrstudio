@@ -1,0 +1,51 @@
+.left {
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.left .intro {
+  font-size: 14px;
+  padding-top: 50px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  flex: 1;
+  border-bottom: 1px solid #1E1E1D;
+}
+
+.left .intro .names{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.left .projects {
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.left .projects ul, .left .projects ul li {
+  width: 100%;
+}
+
+.projects ul li {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 20px;
+  border-bottom: 1px solid #1E1E1D;
+}
+
+.projects ul li div {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.intro p {
+  margin-bottom: 2px;
+}
