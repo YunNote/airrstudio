@@ -32,5 +32,5 @@ html{
 .bodyContainer {
   display: grid;
   height: 100vh;
-  grid-template-rows: 80px auto 60px
+  grid-template-rows: 80px auto 60px;
 }
