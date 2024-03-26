@@ -1,0 +1,48 @@
+.container {
+  padding: 14px 20px;
+}
+
+.header {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-family: PretendardEnglish, sans-serif;
+}
+
+.thumbnailHover {
+  position: relative;
+}
+
+.thumbnailHover img {
+  width: 100%;
+}
+
+.thumbnailHover .hoverWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #1E1E1D99;
+  display: none;
+  cursor: pointer;
+}
+
+.thumbnailHover .hoverWrap p {
+  color: #F1F1F0;
+  font-size: 68px;
+  text-decoration: underline #F1F1F0;
+  text-underline-offset: 24px;
+  text-decoration-thickness: 7px;
+  padding: 10px;
+  user-select: none;
+}
+
+.thumbnailHover:hover div {
+  display: flex;
+}

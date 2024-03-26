@@ -3,22 +3,30 @@
     {
       "id": 1,
       "title": "OGQ GRAFOLIO",
-      "thumbnail": "/images/ogq_grafolio/OGQ_GRAFOLIO_thumbnail.webp"
+      "thumbnail": "/images/ogq_grafolio/OGQ_GRAFOLIO_thumbnail.webp",
+      "startDate": "2024.03",
+      "endDate" : "2024.08"
     },
     {
       "id": 2,
       "title": "OGQ GRAFOLIO",
-      "thumbnail": "/images/ogq_grafolio/OGQ_GRAFOLIO_thumbnail.webp"
+      "thumbnail": "/images/ogq_grafolio/OGQ_GRAFOLIO_thumbnail.webp",
+      "startDate": "2024.03",
+      "endDate" : "2024.08"
     },
     {
       "id": 3,
       "title": "OGQ GRAFOLIO",
-      "thumbnail": "/images/ogq_grafolio/OGQ_GRAFOLIO_thumbnail.webp"
+      "thumbnail": "/images/ogq_grafolio/OGQ_GRAFOLIO_thumbnail.webp",
+      "startDate": "2024.03",
+      "endDate" : "2024.08"
     },
     {
       "id": 4,
       "title": "OGQ GRAFOLIO",
-      "thumbnail": "/images/ogq_grafolio/OGQ_GRAFOLIO_thumbnail.webp"
+      "thumbnail": "/images/ogq_grafolio/OGQ_GRAFOLIO_thumbnail.webp",
+      "startDate": "2024.03",
+      "endDate" : "2024.08"
     }
   ]
 }
